@@ -11,4 +11,4 @@
 이러한 생각을 바탕으로 20계단이라는 페이지을 제작해보았습니다.
 
 
-[hyperlink 확인!(117.17.102.220/opensourceclass/loginpage.html)]
+확인! 117.17.102.220/opensourceclass/loginpage.html
