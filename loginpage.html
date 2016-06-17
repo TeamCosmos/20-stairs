@@ -1,0 +1,48 @@
+<html>
+<head>
+  <title>Login</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+
+<body>
+  <center style = "margin-top:250px">
+  <form id = "form" method = "post" action = "login.php" style = "display:inline">
+    <table border = 0 style="padding:5px;">
+      <tr>
+        <td colspan="4"><font face = "Arial Black">
+           <h2>Twenty Stairs</h2></font></td>
+      </tr>
+      <tr>
+        <td rowspan="2"><img src = "images\stair.png" style="height:90px"></td>
+        <td style="text-align:right">ID</td>
+        <td><input type = "text" name = "id" style="height:40px;" placeholder="아이디 입력"></td>
+        <td rowspan="2" style="padding:0 10px;background:#d2d2d2;border:solid #ADADAD 1px;">
+          <a href = "javascript:document.getElementById('form').submit();" style="text-decoration: none;">
+            <span style = "color:black">
+          <font face = "Arial Black">로그인</font></span></a></td>
+      </tr>
+
+      <tr>
+        <td>PW</td>
+        <td><input type = "password" name = "psw" style="height:40px;" placeholder="패스워드 입력"></td>
+      </tr>
+
+      <tr>
+        <td colspan="4" style="text-align:right;padding-top:10px">
+
+          <a href="findID.html" style="text-decoration: none;"><span style = "color:black">
+            <font face = "Arial Black">아이디</font></span></a> /
+          <a href = "findPW.html" style="text-decoration: none;"><span style = "color:black">
+              <font face = "Arial Black">비밀번호 찾기</font></span></a>
+          <a href = "join.html" style="text-decoration: none;"><span style = "color:black">
+              <font face = "Arial Black">회원가입</font></span></a>
+        </td>
+
+      </tr>
+
+    </table>
+
+  </form>
+  </center>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<html>
+<head>
+  <title>Join</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta content="CSS">
+</head>
+
+<style>
+  table {
+    border-collapse: collapse;
+  }
+
+  table, th, tr, td {
+    border: 0px solid black;
+  }
+</style>
+
+<body>
+  <center style = "margin-top:250px">
+    <form method = "post" action = "join.php" style = "display:inline">
+      <table>
+        <tr>
+          <td rowspan="6"><img src="images\signup.png"></td>
+          <td rowspan="8" style="width:25px"></td>
+          <td>이 름</td>
+          <td><input type = "text" name = "name" style="height:35px;" placeholder="이름을 입력하세요"></td>
+        </tr>
+        <tr>
+          <td>Email</td>
+          <td><input type = "text" name = "email" style="height:35px;" placeholder="Emain을 입력하세요"></td>
+        </tr>
+        <tr>
+          <td>ID</td>
+          <td><input type = "text" name = "id" style="height:35px;" placeholder="ID를 입력하세요"></td>
+        </tr>
+        <tr>
+          <td>비밀번호</td>
+          <td><input type = "password" name = "pwd" style="height:35px;" placeholder="비밀번호를 입력하세요"></td>
+        </tr>
+        <tr>
+          <td>비밀번호확인</td>
+          <td><input type = "password" name = "repwd" style="height:35px;" placeholder="비밀번호를 재입력하세요"></td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align:right;">
+            <input type = "submit" value = "submit">
+          </td>
+        </tr>
+      </form>
+    </table>
+  </center>
+</body>
+</html>
